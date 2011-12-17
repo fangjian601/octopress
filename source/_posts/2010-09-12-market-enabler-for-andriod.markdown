@@ -16,7 +16,7 @@ categories: [Andriod, App]
 
 我们知道Google在Android Market上Be Evil了，不同国家的人看到的Market上的内容是不相同的，比如在天朝，我们就无法下到Google Maps，Google Buzz Widget等等一系列限制级的软件，这样一来就有诸多不便。而Market Enabler的作用是把你伪装成米国用户，然后你的Market里面就能够看到那些限制级的软件了。当然不止可以伪装成美帝，其他Region的用户也可以。
 
-<!--more->>
+<!--more-->
 
 **注意：此软件需要Root权限（如无，会出现错误）**
 
