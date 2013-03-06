@@ -1,2 +1,7 @@
+---
+layout: nil
+---
 User-agent: *
-Sitemap: http://blog.fangjian.me/sitemap.xml
+Disallow: 
+
+Sitemap: {{ site.url }}/sitemap.xml 

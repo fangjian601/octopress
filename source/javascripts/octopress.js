@@ -11,6 +11,7 @@ function getNav() {
   mobileNav.children('select').bind('change', function(event) {
     if (event.target.value) { window.location.href = event.target.value; }
   });
+  mobileNav.children('select').val('');
 }
 
 function addSidebarToggler() {
@@ -110,7 +111,7 @@ function wrapFlashVideos() {
 function renderDeliciousLinks(items) {
   var output = "<ul>";
   for (var i=0,l=items.length; i<l; i++) {
-    output += '<li><a href="' + items[i].u + '" title="Tags: ' + items[i].t.join(', ') + '">' + items[i].d + '</a></li>';
+    output += '<li><a href="' + items[i].u + '" title="Tags: ' + (items[i].t == "" ? "" : items[i].t.join(', ')) + '">' + items[i].d + '</a></li>';
   }
   output += "</ul>";
   $('#delicious').html(output);
